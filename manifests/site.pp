@@ -15,3 +15,7 @@ node /^web/ {
 node /^db/ {
   include role::db_server
 }
+
+node /^mine/ {
+  include_role::base_server
+}
